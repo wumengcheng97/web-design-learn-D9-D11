@@ -1,0 +1,526 @@
+html{
+    margin-top: -70px;
+}
+body{
+    margin-bottom: -3px;
+}
+header{
+    text-align: center;
+    background-image: url(img/hello\ world.png);
+    height: 991px;
+    width: 100%;
+}
+
+.Hello_World{
+    font-size: 62px;
+    font-family: "Montserrat";
+    color: rgb(255, 255, 255);
+    padding-top:5.69cm;
+}
+
+.main_intro{
+    font-size: 20px;
+    font-family: "Montserrat";
+    color: rgba(255, 255, 255, 0.702);
+    width: 766px;
+    height: 84px;
+    margin:  auto;
+}
+
+.Placeholder{
+    border-width: 1px;
+    border-color: rgb(255, 255, 255, 0.2);
+    border-style: solid;
+    border-radius: 2px;
+    margin:auto;
+    width: 968px;
+    margin-top: 3cm;
+}
+
+.Create_Your_Account{
+    font-size: 16px;
+    font-family: "Montserrat";
+    color: rgb(255, 255, 255);
+    margin-top: 1.5cm;
+}
+
+.It_is_absolutely_free{
+    font-size: 12px;
+    font-family: "Montserrat";
+    color: rgba(255, 255, 255, 0.302);
+    text-transform: uppercase;
+    margin-top: 0.6cm;
+}
+
+form{
+    margin: 1.5cm auto;
+}
+
+.Input_Field{
+    border-width: 1px;
+    border-color: rgb(255, 255, 255, 0.2);
+    border-style: solid;
+    border-radius: 2px;
+    width: 290px;
+    height: 48px;
+    margin: 0 10px;
+    background-color: rgb(255, 255, 255, 0);
+
+    font-size: 14px;
+    font-family: "Montserrat";
+    color: white;
+    line-height: 1.857;
+    text-align: left;
+    padding-left: 10px;
+}
+
+input::placeholder{
+    font-size: 14px;
+    font-family: "Montserrat";
+    
+    line-height: 1.857;
+    text-align: left;
+    padding-left: 10px;
+}
+  
+
+.Button{
+    border-radius: 2px;
+    background-color: rgb(255, 255, 255);
+    width: 125px;
+    height: 50px;
+}
+
+/*boatload 部分*/
+
+.boatloads{
+    width: 75%;
+    margin: auto;
+}
+
+.Boatloads_of_Awesome{
+    font-size: 14px;
+    font-family: "Montserrat";
+    color: rgb(20, 20, 20);
+    text-transform: uppercase;
+    line-height: 2;
+    text-align: center;
+    margin-top: 2cm;
+}
+
+.middle_title{
+    font-size: 42px;
+    font-family: "Montserrat";
+    color: rgb(20, 20, 20);
+    line-height: 1.238;
+    text-align: center;
+    width: 700px;
+    height: 93px;
+    margin: 1.2cm auto;
+}
+
+.boatloads .middle_title{
+    margin-bottom: 150px;
+}
+
+.boatloads ul{
+    margin-top: 1.2cm;
+    list-style: none;
+    overflow: hidden;
+}
+
+.boatloads li{
+    width: 35%;
+    height: 5cm;
+    float: left;
+    overflow: hidden;
+}
+
+.boatloads li:nth-child(2n-1){
+    margin-right: 220px;
+}
+
+.boatloads li img{
+    float: left;
+    padding-bottom: 3cm;
+    padding-right: 0.8cm;
+
+}
+
+.boatloads .title {
+    font-size: 20px;
+    font-family: "Montserrat";
+    color: rgb(20, 20, 20);
+    line-height: 1.6;
+    margin-top: -5px;
+}
+
+.boatloads .content {
+    font-size: 16px;
+    font-family: "Montserrat";
+    color: rgba(20, 20, 20, 0.702);
+    line-height: 1.625;
+    width: 355px;
+    height: 42px;
+  }
+  
+  
+/*policies 部分*/
+
+.policies{
+    background-image: url(img/policies.png);
+    opacity: 0.651;
+    overflow: hidden;
+    height: 800px;
+}
+
+.policies_left{
+    margin-left: 5cm;
+    margin-bottom: 1cm;
+    padding-top: 4cm;
+    width: 400px;
+}
+
+.policies_left p:first-child{
+    font-size: 42px;
+    font-family: "Montserrat";
+    color: rgb(255, 255, 255);
+    line-height: 1.238;
+    text-align: left;
+}
+
+.policies_left p:last-child{
+    font-size: 18px;
+    font-family: "Montserrat";
+    color: rgba(255, 255, 255, 0.702);
+    line-height: 1.556;
+    text-align: left;
+} 
+
+.policies_button{
+    margin-left: 5cm;
+}
+  
+.button {
+    border-radius: 2px;
+    background-color: rgb(255, 255, 255);
+    width: 220px;
+    height: 50px;
+    color: black;
+    margin-right: 25px;
+}
+
+.button:last-child{
+    background-color: rgb(255, 255, 255, 0);
+    border: rgb(255, 255, 255) solid 1px;
+    color: white;
+}
+
+.policies_right img:first-child{
+    position: relative;
+    top: -500px;
+    left: 688px;
+}
+
+.policies_right img:last-child{
+    position: relative;
+    top: -528px;
+    left:98px;
+}
+
+/*middle*/
+
+.middle{
+    margin: auto;
+    width: 75%;
+}
+
+.products_list{
+    margin: 1cm 0;
+    overflow: hidden;
+}
+.products_list_item{
+    float: left;
+    width: 33.3%;
+}
+.products_list_item .content {
+    font-size: 16px;
+    font-family: "Montserrat";
+    color: rgba(20, 20, 20, 0.702);
+    line-height: 1.625;
+    text-align: center;
+    width: 300px;
+  }
+  
+.products_list_item img{
+    margin-left: 100px;
+}
+.Divider{
+    width: 100%;
+    margin-bottom: 2cm;
+    opacity: 0.2;
+}
+
+.products_sub{
+    overflow: hidden;
+    margin-bottom: 60px;
+}
+
+.products_sub .products_img1{
+    float: left;
+    width: 60%;
+}
+
+.products_sub .products_img2{
+    width: 60%;
+    float: right;
+}
+
+
+.products_content1{
+    float: right;
+    width: 30%;
+
+}
+
+.products_content2{
+    float: left;
+    width: 30%;
+
+}
+
+.products_sub .title{
+    font-size: 20px;
+    font-family: "Montserrat";
+    color: rgb(20, 20, 20);
+    line-height: 1.6;
+    text-align: left;
+    width: 265px;
+    height: 70px;
+    margin-top: 80px;
+}
+
+.products_sub .content{
+    font-size: 16px;
+    font-family: "Montserrat";
+    color: rgba(20, 20, 20, 0.702);
+    line-height: 1.75;
+    text-align: left;
+    width: 305px;
+    height: 156px;
+}
+  
+/*crew*/
+
+.crew .content{
+    font-size: 18px;
+    font-family: "Montserrat";
+    color: rgba(20, 20, 20, 0.702);
+    line-height: 1.556;
+    text-align: center;
+    width: 695px;
+    margin: -50px auto;
+}
+.crew_list{
+    overflow: hidden;
+    margin-top: 120px;
+    margin-bottom: 50px;
+}
+.crew_list_item{
+    display: inline-flex;
+    padding: 10px;
+}
+
+#crew_1 {
+    background-color: rgba(20,20,20, 0.651);
+    position: absolute;
+    
+    width: 470px;
+    height: 339px;
+    border: 1px solid white;
+}
+
+#crew_1 .title{
+    font-size: 20px;
+    font-family: "Montserrat";
+    color: rgb(255, 255, 255);
+    line-height: 1.6;
+    text-align: center;
+    margin-top: 100px;
+} 
+
+#crew_1 .content {
+    font-size: 12px;
+    font-family: "Montserrat";
+    color: rgba(255, 255, 255, 0.4);
+    text-transform: uppercase;
+    line-height: 2.333;
+    text-align: center;
+    margin-top: -10px;
+    margin-left: -110px;
+}
+
+.crew_icon{
+    margin-left: 120px;
+    margin-top: 70px;
+}
+
+.crew_icon div{
+    border: 1px solid  rgba(255, 255, 255, 0.4);
+    border-radius: 50%;
+    padding: 10px 0;
+    padding-left: 15px;
+    width: 30px;
+    float: left;
+    margin-right: 50px;
+}
+
+
+  
+
+/*middle_bottom*/
+
+.middle_bottom{
+    display: inline-flex;
+    margin-bottom: 50px;
+}
+.send, .contacts{    
+    width: 450px;
+    margin: 0 25px;
+}
+
+.send{
+    border: 1px rgb(20, 20, 20, 0.102) solid;
+    border-radius: 10px;
+}
+
+.send p{
+    font-size: 16px;
+    font-family: "Montserrat";
+    color: rgb(20, 20, 20);
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: -40px;
+    
+}
+
+.send form input{
+    margin: 15px 50px;
+}
+
+.Email{
+    margin-top: 0px;
+}
+
+.Email, .Subject, .Message {
+    border-width: 1px;
+    border-color: rgb(38, 35, 33, 0.2);
+    border-style: solid;
+    border-radius: 2px;
+    
+    width: 350px;
+    height: 43px;
+}
+
+.Message{
+    height: 150px;
+}
+
+.send button{
+    border-radius: 2px;
+    background-color: rgb(20, 20, 20);
+    width: 355px;
+    height: 50px;
+    margin-top: 22px;
+    margin-left: 50px;
+    margin-bottom: -10px;
+    color: white;
+}
+  
+.contacts{
+    margin-top: 30px;
+    margin-left: 150px;
+}
+.contacts p {
+    width: 351px;
+}
+
+.contacts p:first-child{
+    font-size: 42px;
+    font-family: "Montserrat";
+    color: rgb(20, 20, 20);
+    line-height: 1.238;
+    text-align: left;
+  }
+
+.contacts p:nth-child(2){
+    font-size: 16px;
+    font-family: "Montserrat";
+    color: rgba(20, 20, 20, 0.702);
+    line-height: 1.625;
+    margin-top: -10px;
+    margin-bottom: 50px;
+}
+
+.contacts div{
+    width: 351px;
+    height: 68px;
+    font-size: 16px;
+    font-family: "Montserrat";
+    color: rgba(20, 20, 20, 0.702);
+    line-height: 1.625;
+    
+    overflow: hidden; 
+}
+
+.contacts div img{
+    margin-right: 20px;
+    border: 1px solid white;
+    float: left;
+}
+
+
+/*footer*/
+  
+footer{
+    background-color: rgb(20, 20, 20);
+    height: 420px;
+}
+
+.learn_more{
+    margin-left: 10%;
+}
+footer div{
+    margin-top: 3.10cm;
+    width: 7cm;
+    float: left;
+}
+
+footer a{
+    display: block;
+}
+footer .title{
+    font-size: 14px;
+    font-family: "Montserrat";
+    color: rgb(255, 255, 255);
+    line-height: 2;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+footer .content {
+    font-size: 16px;
+    font-family: "Montserrat";
+    color: rgba(255, 255, 255, 0.302);
+    line-height: 2.875;
+    text-align: left;
+}
+
+.social_icon{
+    margin: 0;
+}
+
+.social_icon img{
+    margin: 0 8px;
+}
